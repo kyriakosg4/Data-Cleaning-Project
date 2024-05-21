@@ -11,6 +11,20 @@ This beginner-level SQL project aims to clean and prepare data related to compan
 - Standarize the Data
 - Null values or Blank values
 - Remove any Columns
+
+## Installation
+
+### Prerequisites
+
+- MySQL (Download and install from [MySQL Downloads](https://dev.mysql.com/downloads/))
+- A spreadsheet software like Microsoft Excel or Google Sheets to view the `.xlsx` file.
+
+### Setup
+
+1. **Clone the Repository:**
+   ```bash
+   git 
+   cd global-company-layoffs
   
 
 
