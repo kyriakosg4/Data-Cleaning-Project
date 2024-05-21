@@ -23,9 +23,16 @@ This beginner-level SQL project aims to clean and prepare data related to compan
 
 1. **Clone the Repository:**
    ```bash
-   git 
+   git https://github.com/kyriakosg4/Data-Cleaning-Project.git
    cd global-company-layoffs
   
+2. Database Setup:
 
+Launch MySQL command line or MySQL Workbench.
+Create a new database:
+sql
+Copy code
+CREATE DATABASE layoffs_db;
+USE layoffs_db;
 
 
