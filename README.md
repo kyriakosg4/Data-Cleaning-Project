@@ -1,4 +1,4 @@
-# This is Heading
+# Data Cleaning Project 
 
 Data Cleaning of a Dataset about layoffs with mySQL WorkBench
 
@@ -11,6 +11,22 @@ This beginner-level SQL project aims to clean and prepare data related to compan
 - Standarize the Data
 - Null values or Blank values
 - Remove any Columns
+
+## Data Import
+The MySQL command-line client was utilized for importing data into MySQL due to its speed and ease of use.
+
+Specifically we needed to do the below:
+1. Add password
+2. Select the database we already created in MySQL
+3. Load the data to the existing table following the below code
+   ->LOAD DATA local INFILE "C:/Users/User/Desktop/Alex Data Analyst Bootcamp/Sql/Excel/covidDeaths.csv"
+   ->INTO TABLE layoffs_staging
+   ->FIELDS TERMINATED BY ',' 
+   ->ENCLOSED BY '"'
+   ->LINES TERMINATED BY '\n'
+   ->IGNORE 1 ROWS;
+
+
 
 ## Installation
 
